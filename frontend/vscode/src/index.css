@@ -1,0 +1,36 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  
+}
+
+.terminal {
+  background-color: black;
+}
+
+.play-ground {
+  display: flex;
+  flex-direction: column;
+  
+}
+
+.editor-container {
+  display: flex;
+  min-height: 60vh;
+  width: 100%;
+}
+.terminal-container{
+  width: 100%;
+}
+li{
+  list-style: none;
+  line-height: 20px;
+}
+.file-nodes{
+  background-color: grey;
+  border-radius: 10px;
+  padding: 5px;
+  cursor: pointer;
+}
